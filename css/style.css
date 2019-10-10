@@ -2,8 +2,34 @@ body {
     font-family: IBM Plex Sans, Roboto, sans-serif;
 }
 
+.navbar {
+    background-color: #1b263c;
+}
+
 .as-nav-icon {
-    color:White;
-    font-size:2em;
-    padding-right:20px;
+    color: White;
+    font-size: 2em;
+    padding-right: 20px;
+}
+
+.as-intro-text {
+    line-height: 1.8;
+}
+
+.as-contact-card {
+    background-color: #FFFFFF;
+}
+
+.as-contact-icons {
+    font-size: 2em;
+}
+
+.as-contact-icon-link {
+    color: #526590;
+}
+
+.as-contact-other {
+    background-color: #526590;
+    color: #FFFFFF;
+    font-size: 1em;
 }
