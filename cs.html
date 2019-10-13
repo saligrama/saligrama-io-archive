@@ -7,7 +7,7 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
+    
     gtag('config', 'UA-128121411-1');
   </script>
   <title>Computer Science : Aditya Saligrama</title>
@@ -26,7 +26,7 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
+    
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
@@ -61,127 +61,165 @@
       </ul>
     </div>
   </nav>
-
+  
   <div class="container" id="main">
     <br />
-    <h3>Projects</h3>
+    <h3>Research</h3>
     <ul>
       <li>
-        <h5><a href="https://github.com/nlarusstone/corels">CORELS: Learning Certifiably Optimal RulE ListS</a> (Summer 2017-present)</h5>
-        <p>
-        A system that optimizes rule lists to make predictions on categorical data, providing a certificate of optimality. I've been contributing to the project since the summer of 2017 under the supervision of <a href="https://eecs.harvard.edu/margo">Prof. Margo Seltzer</a> and <a href="https://users.cs.duke.edu/~cynthia">Prof. Cynthia Rudin</a>. For this project, I've designed a <a href="https://corels.eecs.harvard.edu">web user interface</a> (<a href="https://github.com/saligrama/corels-ui">source code</a>) and an <a href="https://github.com/saligrama/rcorels">R language API</a>. As part of this project, I also co-wrote <a href="http://www.sysml.cc/doc/2018/54.pdf">"Systems Optimizations for Learning Certifiably Optimal Rule Lists"</a>, which was presented at the SysML conference in February 2018.
-        </p>
+        <h5><b><a href="https://corels.eecs.harvard.edu">CORELS: Certifiably Optimal Rule Lists</a></b> (interpretable machine learning, systems optimization)</h5>
+        <i>Mentored by <a href="https://seltzer.com/margo">Prof. Margo Seltzer</a> and <a href="https://users.cs.duke.edu/~cynthia">Prof. Cynthia Rudin</a></i>
+        <br>
+        CORELS is a machine learning algorithm that provides optimal human-interpretable models called rule lists, or one-sided decision trees.
+        <br>
+        My contributions:
+        <ul>
+          <li>Designed web user interface (<a href="https://github.com/saligrama/rcorels">source code</a>)</li>
+          <li>Created <a href="https://github.com/saligrama/rcorels">R language API</a></li>
+          <li>Key contributor to parallel implementation of algorithm</li>
+          <li>Publications: Co-author on upcoming and <a href="https://sysml.cc/doc/2018/54.pdf">published</a> papers on performance optimizations</li>
+        </ul>
       </li>
+      <br>
       <li>
-        <h5><a href="https://github.com/MadryLab">Madry Lab Adversarial Machine Learning</a> (January 2019-present)</h5>
-        <p>
-        My 2019 project for MIT PRIMES, which I am working on under the supervision of <a href="https://toc.csail.mit.edu/user/328">Guillaume Leclerc</a> and <a href="https://people.csail.mit.edu/madry">Prof. Aleksander Madry</a>. More details to come soon.
-        </p>
+        <h5><b><a href="https://knowbias.ml">KnowBias: Predicting Political Bias in Text</a></b> (natural language processing, machine learning)</h5>
+        A tool that displays the degree of political bias in content such as tweets, online articles, and plaintext files. 
+        <ul>
+          <li>
+            Winner of the <a href="https://www.congressionalappchallenge.us/2018-ma5/">2018 Congressional App Challenge for Massachusetts's 5th Congressional District</a>
+          </li>
+          <li>
+            Web version available at <a href="http://knowbias.ml">knowbias.ml</a> and extensions available for <a href="https://addons.mozilla.org/en-US/firefox/addon/knowbias">Firefox</a> and <a href="https://chrome.google.com/webstore/detail/knowbias/dbjdfohhgmjeaniijifmcdepegmgpkio">Chrome</a>
+          </li>
+          <li>
+            Publications: <a href="https://arxiv.org/abs/1909.12230">short paper</a>, <a href="https://arxiv.org/abs/1905.00724">long paper</a>
+          </li>
+        </ul>
       </li>
+      <br>
       <li>
-        <h5><a href="https://github.com/saligrama/concache">Concache: Concurrent Hashmaps in Rust</a> (January 2018-present)</h5>
-        <p>
-        A lock-free, concurrent hashmap in Rust using epoch-based memory reclamation. This project is organized through the MIT PRIMES program under the supervision of <a href="https://tsp.io">Jon Gjengset</a> and <a href="https://www.csail.mit.edu/person/frans-kaashoek">Prof. Frans Kaashoek</a>. We implemented two hashmaps, one using the concurrent operations library <a href="https://docs.rs/crossbeam/"><code>crossbeam</code></a> and one without, which have been released as Rust crates available <a href="https://crates.io/crates/concache">here</a>. This work was featured at the <a href="https://www.meetup.com/BostonRust/events/254400823/">September 2018 Boston Rust Meetup</a> and again at the <a href="http://math.mit.edu/research/highschool/primes/conference/index.php#CompSci">October 2018 MIT PRIMES Computer Science Conference</a>, where we presented our analysis of various Rust type-system properties that help and hurt developers writing safe and correct concurrent code. Our report is featured at <a href="https://arxiv.org/abs/1904.12210">arXiv:1904.12210</a>.
-        </p>
+        <h5><b><a href="https://github.com/MadryLab">Can robust ensemble schemes improve defenses against adversarial inputs?</a></b> (adversarial machine learning)</h5>
+        <i>Mentored by Guillaume Leclerc and <a href="https://people.csail.mit.edu/madry">Prof. Aleksander Mądry</a> through MIT PRIMES</i>
+        <br>
+        Evaluating the efficacy of ensembling deep learning models for image classification in the context of adversarial robustness. More details to come soon.
       </li>
+      <br>
       <li>
-        <h5><a href="https://knowbias.ml">KnowBias: Predicting Political Bias in Text</a> (May 2018-present)</h5>
-        <p>
-        A tool that displays the degree of political bias in content such as tweets, online articles, and plaintext files. A web version is available at <a href="http://knowbias.ml">knowbias.ml</a>, and extensions are available for <a href="https://addons.mozilla.org/en-US/firefox/addon/knowbias">Firefox</a> and <a href="https://chrome.google.com/webstore/detail/knowbias/dbjdfohhgmjeaniijifmcdepegmgpkio">Chrome</a>. A video explanation is available <a href="https://www.youtube.com/watch?v=1cdh84Y73T4">here</a>. KnowBias won the <a href="https://www.congressionalappchallenge.us/2018-winners/?mc_cid=0b69c79353&mc_eid=24c00b7808#Massachusetts">Congressional App Challenge for Massachusetts's 5th Congressional District</a> in December 2018. My whitepaper for this project is available at <a href="https://arxiv.org/abs/1905.00724">arXiv:1905.00724</a>.
-        </p>
+        <h5><b><a href="https://github.com/saligrama/concache">Concache: Concurrent Hashmaps in Rust</a></b> (parallel computing, systems optimization)</h5>
+        <i>Mentored by <a href="https://tsp.io">Jon Gjengset</a> and <a href="https://www.csail.mit.edu/person/frans-kaashoek">Prof. Frans Kaashoek</a> through MIT PRIMES</i>
+        <br>
+        A lock-free, linked-list based concurrent hashmap in Rust using epoch-based memory reclamation.
+        <ul>
+          <li>
+            Implemented two hashmaps released as <a href="https://crates.io/crates/concache">Rust crates</a>
+          </li>
+          <li>
+            Presented analysis of various Rust type-system properties that help and hurt developers writing safe and correct concurrent code
+          </li>
+          <li>
+            Work featured at <a href="https://www.meetup.com/BostonRust/events/254400823/">September 2018 Boston Rust Meetup</a> and at the <a href="http://math.mit.edu/research/highschool/primes/conference/index.php#CompSci">October 2018 MIT PRIMES Computer Science Conference</a>
+          </li>
+          <li>
+            Publications: <a href="https://arxiv.org/abs/1904.12210">final report</a>
+          </li>
+        </ul>
       </li>
-      <li>
-        <h5><a href="https://github.com/saligrama/mathcountsgrading">Mathcountsgrading</a> (Summer 2016-present)</h5>
-        <p>
-          A website that allows for easier grading of math competitions such as <a href="https://www.mathcounts.org/">Mathcounts</a> and <a href="http://www.imlem.org/">IMLEM</a>.
-        </p>
-      </li>
-      <li>
-        <h5><a href="https://github.com/saligrama/MCGExpression">MCGExpression</a> (July-September 2016)</h5>
-        <p>
-          A major component of <a href="https://github.com/saligrama/mathcountsgrading">mathcountsgrading</a>, this PHP library compares two arithmetic operations and returns whether they match. Implements a modified <a href="https://en.wikipedia.org/wiki/Shunting-yard_algorithm">Shunting-yard algorithm</a>.
-        </p>
-      </li>
-      <li>
-        <h5><a href="https://github.com/saligrama/patricia">Patricia</a> (October 2017-present)</h5>
-        <p>
-          A bit-alphabet based, space-optimized trie for string storage. This library is packageable and includible through Maven, and can be <a href="https://repo1.maven.org/maven2/io/github/saligrama/patricia/">downloaded</a> from the Maven Central Repository. An earlier version of this project (in the <code>old</code> branch) was part of my solutions for the <a href="http://math.mit.edu/research/highschool/primes/materials/2018/CSproblems2018.pdf">2018 MIT PRIMES Computer Science problem set</a>.
-        </p>
-      </li>
-      <li>
-        <h5><a href="https://www.youtube.com/channel/UCoaqujcSCGyUDkz5tRzi7Ag">Weston APCS YouTube Channel</a> (September 2018-present)</h5>
-        <p>
-          Video lessons that supplement the AP Computer Science curriculum at Weston High School. We intend to cover most major topics relating to programming in Java, and hope that these videos are useful to those taking the course and studying for the exam. A GitHub organization with the sample code used in these videos is available <a href="https://github.com/weston-apcs">here</a>.
-        </p>
-      </li>
-      <li>
-        <h5><a href="http://keepournetfree.github.io">Keep Our Net Free</a> <a href="https://github.com/KeepOurNetFree/keepournetfree.github.io">Website</a> and <a href="https://github.com/KeepOurNetFree/blog">Blog</a> (July 2017-present)</h5>
-        <p>
-          I have been working with net neutrality advocacy groups March for Net Neutrality and Keep Our Net Free since mid-2017 and have contributed a significant amount to the latter's blog and website.
-        </p>
-      </li>
-      <li>
-        <h5><a href="https://github.com/saligrama/ChiaDiscord">ChiaDiscord</a> (March 2018)</h5>
-        <p>
-          A Discord bot to filter out the letter N from messages in light of China's censorship of that letter.
-        </p>
-      </li>
-      <li>
-        <h5><a href="https://linuxdesktopreviews.blogspot.com">Linux Desktop Reviews</a> (March 2015-June 2016)</h5>
-        <p>
-          In middle school, when I was just getting into open source, I reviewed several Linux distributions for fun. Though I don't maintain the blog anymore, it has received over 83,000 views since March 2015 and still gets over 400 views per month.
-        </p>
-      </li>
-    </ul>
-    <br />
-    <h3>Publications</h3>
-    <ul>
-      <li>
-        <h5>
-          <a href="https://arxiv.org/pdf/1909.12230.pdf">KnowBias: Detecting Political Polarity in Long Text Content</a> (September 2019)
-        </h5>
-        <p>
-          Aditya Saligrama
-        </p>
-        <p>
-          <i>Available at <a href="https://arxiv.org/abs/1909.12230">arXiv:1909.12230</a></i>
-        </p>
-      </li>
-      <li>
-        <h5>
-          <a href="https://arxiv.org/pdf/1905.00724.pdf">KnowBias: A Novel AI Method to Detect Polarity in Online Content</a> (May 2019)
-        </h5>
-        <p>
-          Aditya Saligrama
-        </p>
-        <p>
-          <i>Available at <a href="https://arxiv.org/abs/1905.00724">arXiv:1905.00724</a></i>
-        </p>
-      </li>
-      <li>
-        <h5>
-          <a href="https://arxiv.org/pdf/1904.12210.pdf">A Practical Analysis of Rust's Concurrency Story</a> (April 2019)
-        </h5>
-        <p>
-          Aditya Saligrama, Andrew Shen, Jon Gjengset
-        </p>
-        <p>
-          <i>Available at <a href="https://arxiv.org/abs/1904.12210">arXiv:1904.12210</a></i>
-        </p>
-      </li>
-      <li>
-        <h5>
-          <a href="http://www.sysml.cc/doc/2018/54.pdf">Systems Optimizations for Learning Certifiably Optimal Rule Lists</a> (February 2018)
-        </h5>
-        <p>
-          Nicholas Larus-Stone, Elaine Angelino, Daniel Alabi, Margo Seltzer, Vassilios Kaxiras, Aditya Saligrama, Cynthia Rudin
-        </p>
-        <p>
-          <i>Presented at <a href="http://www.sysml.cc/2018/index.html">SysML Conference 2018</a></i>
-        </p>
-      </li>
-    </ul>
-  </div>
+    </li>
+  </ul>
+  <h3>Publications</h3>
+  <ul>
+    <li>
+      <h5>
+        <b><a href="https://arxiv.org/pdf/1909.12230.pdf">KnowBias: Detecting Political Polarity in Long Text Content</a></b> (September 2019)
+      </h5>
+      <p>
+        Aditya Saligrama
+      </p>
+      <p>
+        <i>Available at <a href="https://arxiv.org/abs/1909.12230">arXiv:1909.12230</a></i>
+      </p>
+    </li>
+    <li>
+      <h5>
+        <b><a href="https://arxiv.org/pdf/1905.00724.pdf">KnowBias: A Novel AI Method to Detect Polarity in Online Content</a> </b> (May 2019)
+      </h5>
+      <p>
+        Aditya Saligrama
+      </p>
+      <p>
+        <i>Available at <a href="https://arxiv.org/abs/1905.00724">arXiv:1905.00724</a></i>
+      </p>
+    </li>
+    <li>
+      <h5>
+        <b><a href="https://arxiv.org/pdf/1904.12210.pdf">A Practical Analysis of Rust's Concurrency Story</a></b> (April 2019)
+      </h5>
+      <p>
+        Aditya Saligrama, Andrew Shen, Jon Gjengset
+      </p>
+      <p>
+        <i>Available at <a href="https://arxiv.org/abs/1904.12210">arXiv:1904.12210</a></i>
+      </p>
+    </li>
+    <li>
+      <h5>
+        <b><a href="http://www.sysml.cc/doc/2018/54.pdf">Systems Optimizations for Learning Certifiably Optimal Rule Lists</a></b> (February 2018)
+      </h5>
+      <p>
+        Nicholas Larus-Stone, Elaine Angelino, Daniel Alabi, Margo Seltzer, Vassilios Kaxiras, Aditya Saligrama, Cynthia Rudin
+      </p>
+      <p>
+        <i>Presented at <a href="http://www.sysml.cc/2018/index.html">SysML Conference 2018</a></i>
+      </p>
+    </li>
+  </ul>
+  <h3>Other projects</h3>
+  <ul>
+    <li>
+      <h5><b><a href="https://www.youtube.com/channel/UCoaqujcSCGyUDkz5tRzi7Ag">Weston APCS YouTube Channel</a></b> (September 2018-June 2019)</h5>
+      <p>
+        Video lessons that supplement the AP Computer Science curriculum at Weston High School. We intend to cover most major topics relating to programming in Java, and hope that these videos are useful to those taking the course and studying for the exam. A GitHub organization with the sample code used in these videos is available <a href="https://github.com/weston-apcs">here</a>.
+      </p>
+    </li>
+    <li>
+      <h5><b><a href="https://github.com/saligrama/mathcountsgrading">Automated system for grading math competitions</a></b> (June 2016-October 2018)</h5>
+      <p>
+        A website that allows for easier grading of math competitions such as <a href="https://www.mathcounts.org/">Mathcounts</a> and <a href="http://www.imlem.org/">IMLEM</a>.
+      </p>
+    </li>
+    <li>
+      <h5><b><a href="https://github.com/saligrama/MCGExpression">MCGExpression</a></b> (July 2016-September 2016)</h5>
+      <p>
+        A major component of <a href="https://github.com/saligrama/mathcountsgrading">mathcountsgrading</a>, this PHP library compares two arithmetic operations and returns whether they match. Implements a modified <a href="https://en.wikipedia.org/wiki/Shunting-yard_algorithm">Shunting-yard algorithm</a>.
+      </p>
+    </li>
+    <li>
+      <h5><b><a href="https://github.com/saligrama/patricia">Patricia</a></b> (October 2017-March 2018)</h5>
+      <p>
+        A bit-alphabet based, space-optimized trie for string storage. This library is packageable and includible through Maven, and can be <a href="https://repo1.maven.org/maven2/io/github/saligrama/patricia/">downloaded</a> from the Maven Central Repository. An earlier version of this project (in the <code>old</code> branch) was part of my solutions for the <a href="http://math.mit.edu/research/highschool/primes/materials/2018/CSproblems2018.pdf">2018 MIT PRIMES Computer Science problem set</a>.
+      </p>
+    </li>
+    <li>
+      <h5><b><a href="http://keepournetfree.github.io">Keep Our Net Free</a> <a href="https://github.com/KeepOurNetFree/keepournetfree.github.io">Website</a> and <a href="https://github.com/KeepOurNetFree/blog">Blog</a></b> (July 2017-present)</h5>
+      <p>
+        I have been working with net neutrality advocacy groups March for Net Neutrality and Keep Our Net Free since mid-2017 and have contributed a significant amount to the latter's blog and website.
+      </p>
+    </li>
+    <li>
+      <h5><b><a href="https://github.com/saligrama/ChiaDiscord">ChiaDiscord</a></b> (March 2018)</h5>
+      <p>
+        A Discord bot to filter out the letter N from messages in light of China's censorship of that letter.
+      </p>
+    </li>
+    <li>
+      <h5><b><a href="https://linuxdesktopreviews.blogspot.com">Linux Desktop Reviews</a></b> (March 2015-June 2016)</h5>
+      <p>
+        In middle school, when I was just getting into open source, I reviewed several Linux distributions for fun. Though I don't maintain the blog anymore, it has received over 83,000 views since March 2015 and still gets over 400 views per month.
+      </p>
+    </li>
+  </ul>
+  <br />
+</div>
 </body>
 
 </html>
