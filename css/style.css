@@ -6,6 +6,10 @@ body {
     background-color: #1b263c;
 }
 
+.navbar-brand {
+    padding-right: 1em;
+}
+
 .as-nav-icon {
     color: White;
     font-size: 2em;

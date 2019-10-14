@@ -21,34 +21,34 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand" href="./">Aditya Saligrama</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand mr-auto" href="./">Aditya Saligrama</a>      
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="./">About<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./cs">Computer Science</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./writing">Writing</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./advocacy">Advocacy</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./awards">Awards</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="">Misc</a>
-        </li>
-      </ul>
-      <ul class="navbar-nav ml-auto">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="">About<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./cs">Computer Science</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./writing">Writing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./advocacy">Advocacy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./awards">Awards</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./misc">Misc</a>
+          </li>
+        </ul>
+      </div>
+
+      <ul class="navbar-nav flex-row">
         <li>
           <a href="https://github.com/saligrama"><i class="as-nav-icon fab fa-github"></i></a>
         </li>
@@ -59,8 +59,12 @@
           <a href="mailto:saligrama427@gmail.com"><i class="as-nav-icon fas fa-envelope"></i></a>
         </li>
       </ul>
-    </div>
-  </nav>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </nav>
+  </header>
 
   <div class="container" id="main">
     <br />
