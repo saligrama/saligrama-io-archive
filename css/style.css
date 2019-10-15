@@ -10,6 +10,10 @@ body {
     padding-right: 1em;
 }
 
+.btn {
+    background-color: #526590;
+}
+
 .as-nav-icon {
     color: White;
     font-size: 2em;
@@ -36,4 +40,28 @@ body {
     background-color: #526590;
     color: #FFFFFF;
     font-size: 1em;
+}
+
+@media (min-width: 992px) {
+    .as-photo {
+        width: 70%;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .as-photo {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .as-card-parent {
+        width: 70%;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .as-card-parent {
+        width: 100%;
+    }
 }
