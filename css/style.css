@@ -42,7 +42,7 @@ body {
     font-size: 1em;
 }
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
     .as-photo {
         width: 70%;
     }
@@ -52,7 +52,7 @@ body {
     .as-photo {
         width: 100%;
     }
-}
+} */
 
 @media (min-width: 992px) {
     .as-card-parent {
