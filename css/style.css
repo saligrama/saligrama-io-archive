@@ -42,17 +42,19 @@ body {
     font-size: 1em;
 }
 
-/* @media (min-width: 992px) {
+@media (min-width: 992px) {
     .as-photo {
-        width: 70%;
+        width: 80%;
+        max-width: 100%;
     }
 }
 
 @media (max-width: 991.98px) {
     .as-photo {
         width: 100%;
+        max-width: 100%;
     }
-} */
+}
 
 @media (min-width: 992px) {
     .as-card-parent {
