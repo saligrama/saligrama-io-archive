@@ -38,6 +38,10 @@ body {
     font-size: 1em;
 }
 
+.as-photo {
+    align-items: flex-start;
+}
+
 @media (min-width: 992px) {
     .as-photo {
         width: 80%;
